@@ -35,6 +35,7 @@ void insert_at_n(int data, int pos) {
   if (pos == 1) {
     temp1->next = head;
     head = temp1;
+    free(temp1);
     return;
   }
   struct Node *temp2 = head;
