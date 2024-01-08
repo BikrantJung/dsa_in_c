@@ -61,6 +61,7 @@ void delete_at_n(int pos) {
 
   if (pos == 1) {
     head = temp1->next;
+    free(temp1);
     return;
   }
 
