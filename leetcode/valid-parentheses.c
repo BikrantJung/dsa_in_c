@@ -84,7 +84,6 @@ int main() {
       // It is a opening symbol, push to stack
       push_to_stack(stk, string[i]);
     }
-    // Else pop from stack, and compare the symbols.
   }
 
   if (stk->top == -1) {
